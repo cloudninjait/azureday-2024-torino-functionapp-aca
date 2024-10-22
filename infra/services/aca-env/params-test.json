@@ -1,0 +1,21 @@
+{
+    "resourceGroupName": "azuretorino-test-services",
+    "parameters": {
+      "coreResourceGroup": {
+        "value": "azuretorino-test-core"
+      },
+      "env": {
+        "value": "test"
+      },
+      "appName": {
+        "value": "azuretorino"
+      },
+      "acrResourceGroup" : {
+        "value" : "core"
+      },
+      "acrName" : {
+        "value" : "domtechacr"
+      }
+    }
+  }
+  

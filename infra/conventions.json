@@ -1,0 +1,11 @@
+{
+    "storage": "stg",
+    "keyvault": "kv",
+    "logAnalytics": "logs",
+    "insights": "insight",
+    "serviceBus": "bus",
+    "appIdentity": "identity",
+    "acaEnvironment": "acaenv",
+    "functionApp" : "func",
+    "appPlan" : "plan"
+}

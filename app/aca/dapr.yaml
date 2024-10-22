@@ -1,0 +1,14 @@
+version: 1
+common:
+  resourcesPath: ./resources/
+apps:
+  - appID: daprconsumer
+    appDirPath: ./dapr-consumer/dapr-consumer
+    appPort: 7006
+    command: ["dotnet", "run", "--configuration", "Release"]
+  - appID: daprstatehello
+    appDirPath: ./dapr-state-hello/dapr-state-hello
+    command: ["dotnet", "run", "--configuration", "Release"]
+  - appID: daprjob
+    appDirPath: ./dapr-job/dapr-job
+    command: ["dotnet", "run", "--configuration", "Release"]

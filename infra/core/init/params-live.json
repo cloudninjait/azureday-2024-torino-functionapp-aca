@@ -1,0 +1,14 @@
+{
+    "parameters": {
+      "env": {
+        "value": "live"
+      },
+      "appName": {
+        "value": "azuretorino"
+      },
+      "location" : {
+        "value" : "West Europe"
+      }
+    }
+  }
+  

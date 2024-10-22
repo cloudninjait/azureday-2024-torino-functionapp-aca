@@ -1,0 +1,30 @@
+{
+    "resourceGroupName": "azuretorino-dev-services",
+    "parameters": {
+      "coreResourceGroup": {
+        "value": "azuretorino-dev-core"
+      },
+      "env": {
+        "value": "dev"
+      },
+      "appName": {
+        "value": "azuretorino"
+      },
+      "acrName" : {
+        "value" : "domtechacr"
+      },
+      "busItems":{
+        "value" : "250"
+      },
+      "cronSchedule":{
+        "value" : "0 3 * * *"
+      },
+      "cpu" : {
+        "value" : "0.25"
+      },
+      "mem" : {
+        "value" : "0.5"
+      }
+    }
+  }
+  
