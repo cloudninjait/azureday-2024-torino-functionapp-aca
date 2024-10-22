@@ -1,0 +1,12 @@
+{
+    "resourceGroupName": "azuretorino-test-core",
+    "parameters": {
+      "env": {
+        "value": "test"
+      },
+      "appName": {
+        "value": "azuretorino"
+      }
+    }
+  }
+  

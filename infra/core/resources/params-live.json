@@ -1,0 +1,12 @@
+{
+    "resourceGroupName": "azuretorino-live-core",
+    "parameters": {
+      "env": {
+        "value": "live"
+      },
+      "appName": {
+        "value": "azuretorino"
+      }
+    }
+  }
+  

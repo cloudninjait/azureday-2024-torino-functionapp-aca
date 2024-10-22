@@ -1,0 +1,12 @@
+{
+    "resourceGroupName": "azuretorino-dev-core",
+    "parameters": {
+      "env": {
+        "value": "dev"
+      },
+      "appName": {
+        "value": "azuretorino"
+      }
+    }
+  }
+  

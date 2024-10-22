@@ -1,0 +1,33 @@
+{
+    "resourceGroupName": "azuretorino-dev-services",
+    "parameters": {
+      "coreResourceGroup": {
+        "value": "azuretorino-dev-core"
+      },
+      "env": {
+        "value": "dev"
+      },
+      "appName": {
+        "value": "azuretorino"
+      },
+      "acrName" : {
+        "value" : "domtechacr"
+      },
+      "cpu" : {
+        "value" : "0.25"
+      },
+      "mem" : {
+        "value" : "0.5"
+      },
+      "minReplica" : {
+        "value" : 0
+      },
+      "maxReplica" : {
+        "value" : 10
+      },
+      "scalerMessageCount" : {
+        "value" : "100"
+      }
+    }
+  }
+  

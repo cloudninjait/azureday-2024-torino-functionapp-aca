@@ -1,0 +1,33 @@
+{
+    "resourceGroupName": "azuretorino-test-services",
+    "parameters": {
+      "coreResourceGroup": {
+        "value": "azuretorino-test-core"
+      },
+      "env": {
+        "value": "test"
+      },
+      "appName": {
+        "value": "azuretorino"
+      },
+      "acrName" : {
+        "value" : "domtechacr"
+      },
+      "cpu" : {
+        "value" : "0.25"
+      },
+      "mem" : {
+        "value" : "0.5"
+      },
+      "minReplica" : {
+        "value" : 0
+      },
+      "maxReplica" : {
+        "value" : 10
+      },
+      "scalerMessageCount" : {
+        "value" : "100"
+      }
+    }
+  }
+  
